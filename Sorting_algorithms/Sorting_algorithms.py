@@ -9,8 +9,8 @@ def bubble_sort (nums):
                 nums[q], nums[q+1] = nums[q+1], nums[q]
                 swap = True
 
-bubble_sort(numbers)
-print(numbers)
+#bubble_sort(numbers)
+#print(numbers)
 
 def selections_sort (nums):
     for q in range(len(nums)):
@@ -20,5 +20,5 @@ def selections_sort (nums):
                 lowest = w
         nums [q], nums [lowest] = nums[lowest], nums[q]
 
-selections_sort(numbers)
-print(numbers)
+#selections_sort(numbers)
+#print(numbers)
